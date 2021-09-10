@@ -49,4 +49,17 @@ receiveMessageButton.addEventListener('click', receiveMessage);
 // funtions
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
-}
+};
+
+function display(element) {
+   element.classList.remove('hidden');
+};
+
+function hide(element) {
+  element.classList.add('hidden');
+};
+
+function receiveMessage() {
+  hide(sectionImage);
+  display(message);
+};
