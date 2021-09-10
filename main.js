@@ -42,6 +42,11 @@ var mantras = [
 "I am the sky, the rest is weather."
 ];
 
+// eventListeners
+receiveMessageButton.addEventListener('click', receiveMessage);
+
+
+// funtions
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
 }
