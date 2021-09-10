@@ -1,5 +1,14 @@
-// variables to store arrays fo affirmations and mantras
+// querySelectors
+var sectionImage = document.querySelector('.section-image');
+var message = document.querySelector('.message')
+var receiveMessageButton = document.querySelector('.receive-message');
+var affirmationButton = document.querySelector('#affirmation');
+var mantraButton = document.querySelector('#mantra');
 
+
+
+
+// variables to store arrays fo affirmations and mantras
 var affirmations = [
 "I forgive myself and set myself free.",
 "I believe I can be all that I want to be.",
