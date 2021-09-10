@@ -37,7 +37,10 @@ div {
 }
 
 img {
-  margin: 45px 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
   width: 100px;
 }
 
