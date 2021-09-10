@@ -69,3 +69,9 @@ img {
   font-family: 'Quicksand', sans-serif;
   font-size: 24px;
 }
+label {
+  margin-right: auto;
+}
+input {
+  margin-left: auto;
+}
