@@ -6,6 +6,9 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+.hidden {
+  display: none!important;
+}
 
 body {
   background-image: linear-gradient(#134d71, #78a7c6, #f7e4bf);
@@ -25,6 +28,7 @@ section {
   height: 14vh;
   margin: 100px 23% 100px 23%;
   border-radius: 10px;
+  padding: 1%;
 }
 
 div {
@@ -33,7 +37,10 @@ div {
 }
 
 img {
-  margin: 45px 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
   width: 100px;
 }
 
@@ -54,4 +61,17 @@ img {
   cursor: pointer;
   font-size: 19px;
   font-family: 'Quicksand', sans-serif
+}
+.message {
+  margin-top: 6%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+}
+label {
+  margin-right: auto;
+}
+input {
+  margin-left: auto;
 }
