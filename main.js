@@ -46,7 +46,7 @@ var mantras = [
 receiveMessageButton.addEventListener('click', receiveMessage);
 
 
-// funtions
+// event handlers
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
 };
@@ -60,6 +60,13 @@ function hide(element) {
 };
 
 function receiveMessage() {
-  hide(sectionImage);
-  display(message);
+  if (affirmationButton.checked) {
+      message.innerText = affirmations[getRandomIndex(affirmations)];
+      hide(sectionImage);
+      display(message);
+  } else if (mantraButton.checked) {
+      message.innerText = mantras[getRandomIndex(mantras)];
+      hide(sectionImage);
+      display(message);
+  }
 };
