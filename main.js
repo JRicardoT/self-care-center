@@ -53,7 +53,7 @@ function getRandomIndex(array) {
 };
 
 function display(element) {
-   element.classList.remove('hidden');
+  element.classList.remove('hidden');
 };
 
 function hide(element) {
@@ -62,12 +62,22 @@ function hide(element) {
 
 function receiveMessage() {
   if (affirmationButton.checked) {
-      message.innerText = affirmations[getRandomIndex(affirmations)];
-      hide(sectionImage);
-      display(message);
+    message.innerText = affirmations[getRandomIndex(affirmations)];
+    hide(sectionImage);
+    display(message);
+    display(clearMessageButton);
   } else if (mantraButton.checked) {
-      message.innerText = mantras[getRandomIndex(mantras)];
-      hide(sectionImage);
-      display(message);
+    message.innerText = mantras[getRandomIndex(mantras)];
+    hide(sectionImage);
+    display(message);
+    display(clearMessageButton);
+  } else {
+    alert('Please select your type of message.');
   }
 };
+
+function clearMessage() {
+  hide(message);
+  hide(clearMessageButton);
+  display(sectionImage);
+}
