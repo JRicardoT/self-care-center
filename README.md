@@ -1,24 +1,38 @@
 # Self Care Center
-## Overview
-How can I care for myself? One way is with affirmations and mantras!
-Affirmations are thoughts of positive self-empowerment, meant to assert your self-worth.
-Mantras are repetive phrases that are repeated again and again during mindfulness practices. Your challenge is to build an app that helps users remind themselves of their inherent value!
+##### A front End Engineering project by [Ricardo Tovar](https://github.com/JRicardoT)
 
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
+- Project Manager: [Jeremiah Black](https://github.com/jeremiahblackol)
 
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/self-care-center.html). 
+Technologies Used:
+- JavaScript
+- HTML
+- CSS
 
-## Learning Goals
+#### Description:
+  The Self Care Center site allows user to see affirmation and mantra messages
+  depending on which type of message they choose.
 
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
+#### Functionality:
+##### The user can:
+- See a message based on what type of message they choose. This is accomplished by clicking one of the two radio buttons and clicking the "receive message" button after.
+- If user does not choose a type of message, an alert will display and remind the user to choose a type of message.
+- Clear a message if they don't like it.
 
-## Setup
+#### Page Overview:
 
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
+<img width="1052" src="https://user-images.githubusercontent.com/86930028/133009418-f8371d31-aa58-4323-baae-95663616fca6.png">
 
+#### Error handling:
+<img width="1052" src="https://user-images.githubusercontent.com/86930028/133009472-3009958f-7947-4a66-a90f-450c53472a73.png">
+
+#### Clear Message:
+<img width="1052" src="https://user-images.githubusercontent.com/86930028/133009480-93bdc9b0-8450-4d2c-ad35-f864bf19b1ee.png">
+
+#### Project contributors:
+- Creator [Ricardo Tovar](https://github.com/JRicardoT)
+- Project Manager [Jeremiah Black](https://github.com/jeremiahblackol)
+- Code Review: [Natalia Zamboni Vergara](https://github.com/nzambonivergara)
+
+#### Resources:
+- GitHub hosted URL: https://jricardot.github.io/self-care-center/
+- Project GitHub Repo: https://github.com/JRicardoT/self-care-center
